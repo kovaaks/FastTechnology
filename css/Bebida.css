@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Spartan',sans-serif;
+  }
+
+.section-Bebidas{
+  padding: 40px 80px;
+}
+  body {
+   width: 100%;
+   background-color:#ffff;
+  }
+
+  #Bebidas{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+
+  .BebidasFrias {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .BebidasFrias-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .BebidasFrias img {
+    max-width: 30%; 
+  }
+
+  
+
+  .Sucos {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .Sucos-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .Sucos img {
+    max-width: 30%; 
+  }
+
+  .BebidasQuentes {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .BebidasQuentes-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .BebidasQuentes img {
+    max-width: 30%; 
+  }
+
+  .container {
+    text-align: center;
+    padding-top: 2em;
+  }
+  
+  .centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .container img {
+    max-width: 30%; 
+  }
+
+  .VitaminaseCreme {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .VitaminaseCreme-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .VitaminaseCreme img {
+    max-width: 30%; 
+  }
+
+  .Açai {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .Açai-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .Açai img {
+    max-width: 30%; 
+  }
+
+  .Doce {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .Doce-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .Doce img {
+    max-width: 30%; 
+  }
+
+  .Picole {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .Picole-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .Picole img {
+    max-width: 30%; 
+  }
+
+  .Salgado {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .Salgado-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .Salgado img {
+    max-width: 30%; 
+  }
+
+  .Cuscuz {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .Cuscuz-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .Cuscuz img {
+    max-width: 30%; 
+  }
+
+  
+  .Tapioca {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .Tapioca-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .Tapioca img {
+    max-width: 30%; 
+  }
+
+  .Omelete {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .Omelete-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .Omelete img {
+    max-width: 30%;
+  }
+
+  .Sanduiches{
+    text-align: center;
+    padding-top: 2em;
+  }
+  
+  .Sanduiches-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .Sanduiches img {
+    max-width: 30%; 
+  }
+
+  
+  .Almoço {
+    text-align: center;
+    padding-top: 1em;
+  }
+  .Almoço h3{
+    padding-top: 2rem;
+  }
+  
+  .Almoço-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .Almoço img {
+    max-width: 50%; 
+  }
+
+  .Caldos {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .Caldos-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .Caldos img {
+    max-width: 50%; 
+  }
+
+  .MaisPedidos {
+    text-align: center;
+    padding-top: 1em;
+  }
+  
+  .MaisPedidos-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .MaisPedidos img {
+    max-width: 25%; 
+  }
+
+
+  
+
+  @media(max-width:768px){
+    
+    .BebidasFrias img {
+      max-width: 80%; 
+    }  
+
+    .container img {
+      max-width: 80%; 
+    }
+
+    .Sucos img {
+      max-width: 80%; 
+    }
+
+    .VitaminaseCreme img {
+      max-width: 80%; 
+    }
+
+    .BebidasQuentes img {
+      max-width: 80%; 
+    }
+
+    .Açai img {
+      max-width: 80%; 
+    }
+
+    .Doce img {
+      max-width: 80%; 
+    }
+
+    .Picole img {
+      max-width: 100%; 
+    }
+
+    .Salgado img {
+      max-width: 80%; 
+    }
+
+    .Cuscuz img {
+      max-width: 80%; 
+    }
+
+    .Tapioca img {
+      max-width: 80%; 
+    }
+
+    .Omelete img {
+      max-width: 80%; 
+    }
+
+    .Sanduiches img {
+      max-width: 80%; 
+    }
+
+   
+
+    .Almoço img {
+      max-width: 100%; 
+    }
+
+    .Caldos img {
+      max-width: 90%; 
+    }
+
+    .MaisPedidos img {
+      max-width: 80%; 
+    }
+
+
+  
+  }
+
+  
+
+
+  
+
+
+
+
+  
+    
+  
+
+  
+  

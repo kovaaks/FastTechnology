@@ -1,0 +1,47 @@
+#navbar {
+    height: 220px;
+}
+
+#navbar-container {
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#navbar-items li:nth-child(3) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+#navbar-items li:nth-child(1) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+
+
+#showcase-container {
+    padding: 40px;
+}
+
+#Cardapios-container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cardapio {
+    width: 50%;
+    
+}
+
+
+#features-container {
+    grid-template-columns: 1fr;
+}
+
+#features-container .feature:nth-child(2) {
+    margin: 15px 0;
+}

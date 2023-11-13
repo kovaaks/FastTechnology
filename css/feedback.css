@@ -1,0 +1,23 @@
+body{
+    background-color: #ff8c00;
+}
+
+.headline{
+    color: aliceblue;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+
+}
+
+#feedback-container{
+    color: #366f4e;
+}
+
+#feedback-container a{
+
+    color:black;
+}
